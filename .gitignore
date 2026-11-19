@@ -1,2 +1,23 @@
 .env
-/venv
+.venv/# Hemligheter / nycklar
+.env.*
+!.env.example
+*key*.json
+service-account*.json
+credentials*.json
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# dbt
+target/
+dbt_packages/
+logs/
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
