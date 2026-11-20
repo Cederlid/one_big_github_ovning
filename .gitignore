@@ -1,5 +1,8 @@
 .env
-.venv/# Hemligheter / nycklar
+.venv/
+venv/
+
+# Hemligheter / nycklar
 .env.*
 !.env.example
 *key*.json

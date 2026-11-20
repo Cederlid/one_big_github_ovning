@@ -2,3 +2,4 @@
 # numpy==2.2.2
 # python-dotenv==1.1.1
 Flask==2.3.2
+python-dotenv==1.0.0
